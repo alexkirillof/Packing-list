@@ -1,0 +1,67 @@
+.signatures {
+    width: 100%;
+    display: flex;
+    margin-bottom: 200px;
+    &__left-part {
+        width: 59.8%;
+        .left-table-one {
+            width: 100%;
+            padding: 0 80px 5px 10px;
+        }
+        .left-table-two {
+            width: 100%;
+            padding: 0 80px 5px 10px;
+        }
+        .left-table-three {
+            width: 100%;
+            padding-right: 60px;
+            border-collapse: separate;
+            border-spacing: 12px;
+        }
+        .left-table-four {
+            width: 100%;
+            padding: 0 80px 5px 0;
+            border-collapse: separate;
+            border-spacing: 12px;
+        }
+        .left-table-five {
+            width: 100%;
+            padding: 0 180px 0 350px;
+            border-collapse: separate;
+            border-spacing: 12px;
+        }
+    }
+    &__right-part {
+        width: 40.5%;
+        border-left: 1px solid black;
+        padding: 30px 0;
+        p {
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+        .right-table-one {
+            border-collapse: separate;
+            border-spacing: 12px;
+        }
+        .right-table-two {
+            border-collapse: separate;
+            border-spacing: 12px;
+        }
+        .right-table-three {
+            border-collapse: separate;
+            border-spacing: 12px;
+            margin-bottom: 15px;
+        }
+        .right-table-four {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 12px;
+            margin-bottom: 10px;
+        }
+        .right-table-five {
+            border-collapse: separate;
+            border-spacing: 12px;
+            margin-bottom: 10px;
+        }
+    }
+}

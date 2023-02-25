@@ -1,0 +1,10 @@
+@mixin flexible() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin header-name {
+    font-weight: 700;
+    font-size: 18px;
+}
