@@ -58,9 +58,6 @@ const data = [{
 ]
 
 
-
-
-
 const numberRow = document.querySelector('.commodity-section-table__after-one');
 
 function rowGenerator(arr) {

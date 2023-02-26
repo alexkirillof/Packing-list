@@ -1,5 +1,5 @@
 .commodity-section {
-    padding-top: 60px;
+    padding-top: 3%;
     &__header {
         margin-bottom: 20px;
     }
@@ -8,46 +8,32 @@
 .commodity-section-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 16px;
     &__heading {
-        height: 100px;
         text-align: center;
         td {
-            padding: 0 7px;
+            padding: 0.1% 0.1%;
             border: 1px solid;
         }
     }
     &__number {
-        height: 20px;
+        height: 3%;
         text-align: center;
         td {
-            padding: 0 15px;
             border: 1px solid;
+            padding: 0.2% 0;
         }
     }
     &__generated-data {
-        height: 20px;
+        height: 3%;
         text-align: center;
         td {
-            padding: 0 15px;
+            padding: 0.2% 0;
             border: 1px solid;
         }
     }
     &__after-one {
-        height: 20px;
+        height: 10px;
         width: 100%;
         text-align: center;
-    }
-    &__after-two {
-        height: 20px;
-        text-align: center;
-        td:nth-child(-n+3) {
-            padding: 10px 15px 0 15px;
-            line-height: 10px;
-        }
-        .table-td {
-            padding: 8px 4px;
-            border: 1px solid;
-        }
     }
 }
